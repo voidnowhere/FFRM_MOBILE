@@ -14,7 +14,7 @@ class LoginScreen extends StatelessWidget {
             child: const Text('Register',
                 style: TextStyle(
                   color: Colors.white,
-                  fontSize: 19,
+                  fontSize: 17,
                 )),
             onPressed: () {
               Navigator.pushNamed(context, '/register');
